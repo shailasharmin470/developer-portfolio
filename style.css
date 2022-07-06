@@ -7,13 +7,23 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .half-width {
@@ -31,7 +41,8 @@ section {
     color: aliceblue;
     font-weight: 600;
     padding: 5px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
+
 }
 
 .top-banner {
@@ -43,4 +54,30 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 30px black;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+
+}
+
+#senior {
+    border-left: 7px solid tomato;
+}
+
+#junior {
+    border-left: 7px solid blue;
+}
+
+#breed {
+    font-size: larger;
+    font-weight: 1500;
+}
+
+footer p {
+    text-align: center;
 }
